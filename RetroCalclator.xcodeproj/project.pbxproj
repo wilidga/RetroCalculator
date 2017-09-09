@@ -12,6 +12,8 @@
 		034309681F5CFAF60049DF27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034309661F5CFAF60049DF27 /* Main.storyboard */; };
 		0343096A1F5CFAF60049DF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034309691F5CFAF60049DF27 /* Assets.xcassets */; };
 		0343096D1F5CFAF60049DF27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0343096B1F5CFAF60049DF27 /* LaunchScreen.storyboard */; };
+		034309761F5D167D0049DF27 /* Minecraf.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 034309741F5D167D0049DF27 /* Minecraf.ttf */; };
+		034309791F5D18150049DF27 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 034309781F5D18150049DF27 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		034309691F5CFAF60049DF27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0343096C1F5CFAF60049DF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0343096E1F5CFAF60049DF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034309741F5D167D0049DF27 /* Minecraf.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraf.ttf; sourceTree = "<group>"; };
+		034309781F5D18150049DF27 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		034309611F5CFAF60049DF27 /* RetroCalclator */ = {
 			isa = PBXGroup;
 			children = (
+				034309781F5D18150049DF27 /* btn.wav */,
+				034309741F5D167D0049DF27 /* Minecraf.ttf */,
 				034309621F5CFAF60049DF27 /* AppDelegate.swift */,
 				034309641F5CFAF60049DF27 /* ViewController.swift */,
 				034309661F5CFAF60049DF27 /* Main.storyboard */,
@@ -124,8 +130,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034309791F5D18150049DF27 /* btn.wav in Resources */,
 				0343096D1F5CFAF60049DF27 /* LaunchScreen.storyboard in Resources */,
 				0343096A1F5CFAF60049DF27 /* Assets.xcassets in Resources */,
+				034309761F5D167D0049DF27 /* Minecraf.ttf in Resources */,
 				034309681F5CFAF60049DF27 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
